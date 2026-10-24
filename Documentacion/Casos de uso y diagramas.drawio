@@ -1,0 +1,440 @@
+<mxfile host="Electron" agent="Claude" pages="6">
+  <diagram id="n158" name="Casos de Uso">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2" value="Sistema de Control Clinico Veterinario" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="260" y="20" width="620" height="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" value="Recepcionista" style="shape=umlActor;whiteSpace=wrap;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" value="Veterinario" style="shape=umlActor;whiteSpace=wrap;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="640" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" value="Administrador" style="shape=umlActor;whiteSpace=wrap;html=1;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="920" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" value="Iniciar Sesion" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" value="Registrar Cliente" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n8" value="Registrar Mascota" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n9" value="Agendar Cita" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n10" value="Cancelar / Reprogramar Cita" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="380" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n11" value="Registrar Consulta" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="460" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n12" value="Registrar Historia Clinica" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n13" value="Prescribir Tratamiento" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="620" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n14" value="Consultar Historial Medico" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="700" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n15" value="Generar Factura" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="780" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n16" value="Gestionar Inventario de Medicamentos" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="860" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n17" value="Gestionar Usuarios" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="940" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n18" value="Generar Reportes" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1020" width="220" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="n19" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n3" target="n6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n20" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n3" target="n7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n21" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n3" target="n8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n22" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n3" target="n9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n23" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n3" target="n10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n24" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n3" target="n15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n25" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n4" target="n6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n26" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n4" target="n11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n27" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n4" target="n12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n28" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n4" target="n13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n29" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n4" target="n14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n30" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n5" target="n6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n31" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n5" target="n16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n32" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n5" target="n17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n33" style="endArrow=none;html=1;fontSize=10;" edge="1" parent="1" source="n5" target="n18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="n160" name="Flujo - Agendar Cita">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n60" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n61" value="Recepcionista solicita datos&#xa;de cliente y mascota" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n62" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n60" target="n61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n63" value="Cliente y mascota&#xa;ya registrados?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="340" y="250" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n64" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n61" target="n63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n65" value="Registrar nuevo cliente&#xa;y/o mascota" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="390" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n66" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n63" target="n65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n67" value="Seleccionar veterinario&#xa;y horario deseado" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="500" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n68" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n65" target="n67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n69" value="Horario&#xa;disponible?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="340" y="610" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n70" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n67" target="n69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n71" value="Mostrar horarios&#xa;alternativos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="750" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n72" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n69" target="n71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n73" value="Confirmar y registrar&#xa;la cita en el sistema" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="860" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n74" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n71" target="n73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n75" value="Enviar confirmacion&#xa;al cliente" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="970" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n76" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n73" target="n75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n77" value="Fin" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1080" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n78" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n75" target="n77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n79" value="Si" style="endArrow=block;html=1;fontSize=10;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n63" target="n67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n80" value="Si" style="endArrow=block;html=1;fontSize=10;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n69" target="n73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n81" value="reintentar" style="endArrow=block;html=1;fontSize=10;;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="n71" target="n67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="n161" name="Flujo - Registro Cliente y Mascota">
+    <mxGraphModel dx="1471" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n82" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Inicio" vertex="1">
+          <mxGeometry height="50" width="160" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Solicitar datos personales&#xa;del cliente" vertex="1">
+          <mxGeometry height="60" width="240" x="320" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n84" edge="1" parent="1" source="n82" style="endArrow=block;html=1;fontSize=10;" target="n83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n85" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="Datos&#xa;validos?" vertex="1">
+          <mxGeometry height="90" width="200" x="340" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="n86" edge="1" parent="1" source="n83" style="endArrow=block;html=1;fontSize=10;" target="n85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n87" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Registrar cliente&#xa;en el sistema" vertex="1">
+          <mxGeometry height="60" width="240" x="320" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="n88" edge="1" parent="1" source="n85" style="endArrow=block;html=1;fontSize=10;" target="n87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n89" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Solicitar datos de&#xa;la mascota" vertex="1">
+          <mxGeometry height="60" width="240" x="320" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="n90" edge="1" parent="1" source="n87" style="endArrow=block;html=1;fontSize=10;" target="n89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n91" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="Datos de mascota&#xa;validos?" vertex="1">
+          <mxGeometry height="90" width="200" x="340" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="n92" edge="1" parent="1" source="n89" style="endArrow=block;html=1;fontSize=10;" target="n91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n93" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Registrar mascota&#xa;asociada al cliente" vertex="1">
+          <mxGeometry height="60" width="240" x="320" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="n94" edge="1" parent="1" source="n91" style="endArrow=block;html=1;fontSize=10;" target="n93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n95" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Fin" vertex="1">
+          <mxGeometry height="50" width="160" x="360" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="n96" edge="1" parent="1" source="n93" style="endArrow=block;html=1;fontSize=10;" target="n95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n97" edge="1" parent="1" source="n85" style="endArrow=block;html=1;fontSize=10;" target="n87" value="Si">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n98" edge="1" parent="1" source="n85" style="endArrow=block;html=1;fontSize=10;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="n83" value="No, corregir">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n99" edge="1" parent="1" source="n91" style="endArrow=block;html=1;fontSize=10;" target="n93" value="Si">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n100" edge="1" parent="1" source="n91" style="endArrow=block;html=1;fontSize=10;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="n89" value="No, corregir">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="n162" name="Flujo - Atencion de Consulta">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n101" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n102" value="Veterinario recibe&#xa;cita del dia" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n103" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n101" target="n102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n104" value="Verifica identidad de&#xa;mascota y cliente" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n105" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n102" target="n104">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n106" value="Examina a la mascota y&#xa;registra motivo/diagnostico" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n107" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n104" target="n106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n108" value="Requiere&#xa;tratamiento?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="340" y="470" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n109" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n106" target="n108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n110" value="Prescribir tratamiento&#xa;y medicamentos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n111" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n108" target="n110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n112" value="Actualizar stock&#xa;de medicamentos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n113" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n110" target="n112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n114" value="Actualizar historia&#xa;clinica de la mascota" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="830" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n115" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n112" target="n114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n116" value="Generar factura&#xa;de la consulta" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="940" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n117" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n114" target="n116">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n118" value="Fin" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1050" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n119" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n116" target="n118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n120" value="Si" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n108" target="n110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n121" value="No" style="endArrow=block;html=1;fontSize=10;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n108" target="n114">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="n163" name="Flujo - Facturacion">
+    <mxGraphModel dx="1400" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n122" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="360" y="40" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n123" value="Obtener detalle de consulta,&#xa;tratamientos y medicamentos" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="140" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n124" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n122" target="n123">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n125" value="Calcular costos totales" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n126" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n123" target="n125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n127" value="Generar factura preliminar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n128" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n125" target="n127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n129" value="Cliente confirma&#xa;el pago?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="340" y="470" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n130" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n127" target="n129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n131" value="Registrar pago&#xa;y emitir factura definitiva" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="610" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n132" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n129" target="n131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n133" value="Cancelar / posponer&#xa;factura" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n134" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n131" target="n133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n135" value="Actualizar registros&#xa;contables" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="320" y="830" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n136" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n133" target="n135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n137" value="Fin" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="360" y="940" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n138" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n135" target="n137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n139" value="Si" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n129" target="n131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n140" value="No" style="endArrow=block;html=1;fontSize=10;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n129" target="n133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n141" style="endArrow=block;html=1;fontSize=10;" edge="1" parent="1" source="n131" target="n135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="n164" name="Flujo - Inicio de Sesion">
+    <mxGraphModel dx="1212" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n142" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" value="Inicio" vertex="1">
+          <mxGeometry height="50" width="160" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n143" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Usuario ingresa&#xa;usuario y contrasena" vertex="1">
+          <mxGeometry height="60" width="240" x="320" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="n144" edge="1" parent="1" source="n142" style="endArrow=block;html=1;fontSize=10;" target="n143">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n145" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" value="Credenciales&#xa;validas?" vertex="1">
+          <mxGeometry height="90" width="200" x="340" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="n146" edge="1" parent="1" source="n143" style="endArrow=block;html=1;fontSize=10;" target="n145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n147" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Mostrar mensaje&#xa;de error" vertex="1">
+          <mxGeometry height="60" width="240" x="320" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="n148" edge="1" parent="1" source="n145" style="endArrow=block;html=1;fontSize=10;" target="n147">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n149" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Verificar rol&#xa;del usuario" vertex="1">
+          <mxGeometry height="60" width="240" x="320" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="n150" edge="1" parent="1" source="n147" style="endArrow=block;html=1;fontSize=10;" target="n149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n151" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" value="Redirigir al modulo&#xa;segun el rol" vertex="1">
+          <mxGeometry height="60" width="240" x="320" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="n152" edge="1" parent="1" source="n149" style="endArrow=block;html=1;fontSize=10;" target="n151">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n153" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Fin" vertex="1">
+          <mxGeometry height="50" width="160" x="360" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="n154" edge="1" parent="1" source="n151" style="endArrow=block;html=1;fontSize=10;" target="n153">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n155" edge="1" parent="1" source="n145" style="endArrow=block;html=1;fontSize=10;" target="n149" value="Si">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n156" edge="1" parent="1" source="n145" style="endArrow=block;html=1;fontSize=10;exitX=1;exitY=0.5;entryX=1;entryY=0.5;" target="n147" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n157" edge="1" parent="1" source="n147" style="endArrow=block;html=1;fontSize=10;;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" target="n143" value="reintentar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
